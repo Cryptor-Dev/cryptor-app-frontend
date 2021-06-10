@@ -1,0 +1,7 @@
+{
+  "short_name": "Cryptor",
+  "name": "Cryptor",
+  "icons": [ ],
+  "start_url": ".",
+  "display": "standalone"
+}
