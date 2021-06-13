@@ -8,7 +8,7 @@ import WhatWeDo from '../components/WhatWeDo';
 
 const Landing: React.FC = () => {
     return (
-        <div className = "lg:w-4/5 2xl:w-3/5 w-full h-full mx-3 sm:mx-auto">
+        <div className = "lg:w-4/5 2xl:w-3/5 w-full h-full sm:mx-auto relative">
             <Header/>
             <Intro/>
             <WhatWeDo />

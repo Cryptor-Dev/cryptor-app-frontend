@@ -4,7 +4,7 @@ import Landing from './pages/Landing';
 
 function App() {
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-full overflow-hidden">
       <Landing/>
     </div>
   );
