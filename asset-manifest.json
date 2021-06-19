@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cryptor-app-frontend/static/css/main.5c6f9cea.chunk.css",
+    "main.js": "/cryptor-app-frontend/static/js/main.bd00d512.chunk.js",
+    "main.js.map": "/cryptor-app-frontend/static/js/main.bd00d512.chunk.js.map",
+    "runtime-main.js": "/cryptor-app-frontend/static/js/runtime-main.815e4304.js",
+    "runtime-main.js.map": "/cryptor-app-frontend/static/js/runtime-main.815e4304.js.map",
+    "static/js/2.a9961b69.chunk.js": "/cryptor-app-frontend/static/js/2.a9961b69.chunk.js",
+    "static/js/2.a9961b69.chunk.js.map": "/cryptor-app-frontend/static/js/2.a9961b69.chunk.js.map",
+    "static/js/3.7f32e534.chunk.js": "/cryptor-app-frontend/static/js/3.7f32e534.chunk.js",
+    "static/js/3.7f32e534.chunk.js.map": "/cryptor-app-frontend/static/js/3.7f32e534.chunk.js.map",
+    "index.html": "/cryptor-app-frontend/index.html",
+    "static/css/main.5c6f9cea.chunk.css.map": "/cryptor-app-frontend/static/css/main.5c6f9cea.chunk.css.map",
+    "static/js/2.a9961b69.chunk.js.LICENSE.txt": "/cryptor-app-frontend/static/js/2.a9961b69.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.815e4304.js",
+    "static/js/2.a9961b69.chunk.js",
+    "static/css/main.5c6f9cea.chunk.css",
+    "static/js/main.bd00d512.chunk.js"
+  ]
+}
