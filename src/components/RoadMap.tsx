@@ -1,4 +1,5 @@
 import React from 'react';
+import moon from '../assets/moon-and-weave.png';
 
 const RoadMap : React.FC = () => {
     return (
@@ -6,7 +7,7 @@ const RoadMap : React.FC = () => {
             <h1 className = "text-2xl">Roadmap</h1>
             <p className = "text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed<br/>
              do eiusmod tempor incididunt ut labore et dolore magna </p>
-            <img src="./assets/roadmap.svg" className = "" alt="" />
+            <img src={moon} className = "" alt="" />
         </div>
     );
 };

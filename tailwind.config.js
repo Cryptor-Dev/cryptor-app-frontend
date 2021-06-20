@@ -52,7 +52,10 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      borderWidth: ['hover', 'focus'],
+      ringColor: ['hover', 'active', 'focus'],
+    },
   },
   plugins: [],
 }

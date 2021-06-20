@@ -1,12 +1,14 @@
 import gsap from 'gsap/all';
 import React from 'react';
+import intro3d from '../assets/3d-intro.svg'
+import dash from '../assets/dash.svg';
 
 const Intro : React.FC = () => {
 
     return (
         <div className = "px-4 lg:px-0 flex flex-col w-full" id = "intro">
             <div className = "relative">
-            <img src="/assets/3d-intro.svg" alt="" className = "absolute h-72 2xl:h-auto left-full bottom-0 2xl:top-0 -ml-64" />
+            <img src={intro3d} alt="" className = "absolute h-72 2xl:h-auto left-full bottom-0 2xl:top-0 -ml-64 z-0" />
             <h1 className = "text-white text-6xl mt-20 sm:mt-32">Invest in the future of the <br/> currency </h1>
             <p className = "text-white text-sm mt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br/>
              ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
@@ -32,7 +34,7 @@ const Intro : React.FC = () => {
             </div>
             </div>
             <div className = "flex flex-col text-center space-y-6 text-white">
-                <img src="./assets/laptop.svg" className = "w-auto sm:h-96 shadow-3xl mt-16 mx-auto" alt="" />
+                <img src={dash} className = "w-auto sm:h-96 shadow-3xl mt-16 mx-auto" alt="" />
                 <h1 className = "text-2xl">Lorem ipsum dolor sit amet</h1>
                 <p className = "font-light text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br/>
                  do eiusmod tempor incididunt ut labore et dolore magna </p>

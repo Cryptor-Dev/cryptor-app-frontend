@@ -1,4 +1,5 @@
 import React from 'react';
+import dino from '../assets/3d.svg';
 
 const WhatWeDo : React.FC = () => {
     return (
@@ -9,7 +10,7 @@ const WhatWeDo : React.FC = () => {
                  do eiusmod tempor incididunt ut labore et dolore magna </p>
             </div>
             <div className = "w-1/2">
-                <img src="./assets/3d.svg" alt="" className = "h-80"/>
+                <img src={dino} alt="" className = "h-80"/>
             </div>
         </div>
     );

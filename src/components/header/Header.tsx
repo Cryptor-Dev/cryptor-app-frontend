@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { rootState } from '../../store';
 import MobileMenu from './MobileMenu';
 import { menuToggleOn } from '../../store/actions';
+import logo from '../../assets/cryptor-logo.svg';
 gsap.registerPlugin(ScrollToPlugin);
 
 const Header : React.FC = () => {
@@ -31,23 +32,15 @@ const Header : React.FC = () => {
             <MobileMenu menuLink = {menuLink}/>
         )}
         <div className = "pr-4 pl-4 lg:pr-0 lg:pl-0 flex w-full h-32">
-            <img src="./assets/cryptor-logo.svg" className = "w-16 h-20 my-auto" alt="" />
+            <img src={logo} className = "w-16 h-20 my-auto" alt="" />
             <div className = "hidden lg:flex ml-auto my-auto text-sm font-light">
                 {
                     menuLink.map((items,i) => (
-                        <span key = {items.name} className = {"text-white ml-8 cursor-pointer link-" + (i+1)}  onClick = {
+                        <span key = {items.name} className = {"text-white ml-8 cursor-pointer transition transform hover:-translate-y-1 link-" + (i+1)}  onClick = {
                             ()=>{
                                 gsap.to(window, {duration: 1, scrollTo: items.link})
                             }
-                        } onMouseEnter = {
-                            () => {
-                                gsap.to(items.class, {translateY:"-0.5rem", duration:0.2})
-                            }
-                        } onMouseLeave = {
-                            () => {
-                                gsap.to(items.class, {translateY:0, duration:0.2})
-                            }
-                        }>{items.name}</span>
+                        } >{items.name}</span>
                     ))
                 }
             </div>

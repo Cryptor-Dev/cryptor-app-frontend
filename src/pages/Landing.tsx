@@ -5,6 +5,8 @@ import MeetOurTeam from '../components/MeetOurTeam';
 import RoadMap from '../components/RoadMap';
 import Tokenomics from '../components/Tokenomics';
 import WhatWeDo from '../components/WhatWeDo';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 const Landing: React.FC = () => {
     return (
@@ -15,6 +17,8 @@ const Landing: React.FC = () => {
             <MeetOurTeam />
             <RoadMap />
             <Tokenomics />
+            <Contact />
+            <Footer />
         </div>
     );
 }
