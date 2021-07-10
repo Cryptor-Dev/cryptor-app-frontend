@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cryptor-app-frontend/static/css/main.50479254.chunk.css",
-    "main.js": "/cryptor-app-frontend/static/js/main.a0aa5712.chunk.js",
-    "main.js.map": "/cryptor-app-frontend/static/js/main.a0aa5712.chunk.js.map",
+    "main.css": "/cryptor-app-frontend/static/css/main.8611cb8e.chunk.css",
+    "main.js": "/cryptor-app-frontend/static/js/main.cd611afb.chunk.js",
+    "main.js.map": "/cryptor-app-frontend/static/js/main.cd611afb.chunk.js.map",
     "runtime-main.js": "/cryptor-app-frontend/static/js/runtime-main.815e4304.js",
     "runtime-main.js.map": "/cryptor-app-frontend/static/js/runtime-main.815e4304.js.map",
     "static/js/2.5897911d.chunk.js": "/cryptor-app-frontend/static/js/2.5897911d.chunk.js",
@@ -10,10 +10,10 @@
     "static/js/3.7f32e534.chunk.js": "/cryptor-app-frontend/static/js/3.7f32e534.chunk.js",
     "static/js/3.7f32e534.chunk.js.map": "/cryptor-app-frontend/static/js/3.7f32e534.chunk.js.map",
     "index.html": "/cryptor-app-frontend/index.html",
-    "static/css/main.50479254.chunk.css.map": "/cryptor-app-frontend/static/css/main.50479254.chunk.css.map",
+    "static/css/main.8611cb8e.chunk.css.map": "/cryptor-app-frontend/static/css/main.8611cb8e.chunk.css.map",
     "static/js/2.5897911d.chunk.js.LICENSE.txt": "/cryptor-app-frontend/static/js/2.5897911d.chunk.js.LICENSE.txt",
     "static/media/3d-intro.7f5699a6.svg": "/cryptor-app-frontend/static/media/3d-intro.7f5699a6.svg",
-    "static/media/3d.fa740bba.svg": "/cryptor-app-frontend/static/media/3d.fa740bba.svg",
+    "static/media/cryptor-bg.15a56c7f.png": "/cryptor-app-frontend/static/media/cryptor-bg.15a56c7f.png",
     "static/media/cryptor-logo.ebc6f36a.svg": "/cryptor-app-frontend/static/media/cryptor-logo.ebc6f36a.svg",
     "static/media/dash.9d90050f.svg": "/cryptor-app-frontend/static/media/dash.9d90050f.svg",
     "static/media/facebook.ea74a507.svg": "/cryptor-app-frontend/static/media/facebook.ea74a507.svg",
@@ -22,6 +22,7 @@
     "static/media/linkedin.7799cadc.svg": "/cryptor-app-frontend/static/media/linkedin.7799cadc.svg",
     "static/media/mail.fa6debb6.svg": "/cryptor-app-frontend/static/media/mail.fa6debb6.svg",
     "static/media/moon-and-weave.9893e841.png": "/cryptor-app-frontend/static/media/moon-and-weave.9893e841.png",
+    "static/media/raptor.eb6e4418.png": "/cryptor-app-frontend/static/media/raptor.eb6e4418.png",
     "static/media/team-anas.053128f0.svg": "/cryptor-app-frontend/static/media/team-anas.053128f0.svg",
     "static/media/team-patric.fbb91aa8.svg": "/cryptor-app-frontend/static/media/team-patric.fbb91aa8.svg",
     "static/media/tokenomics-icon.12f26c16.svg": "/cryptor-app-frontend/static/media/tokenomics-icon.12f26c16.svg",
@@ -30,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.815e4304.js",
     "static/js/2.5897911d.chunk.js",
-    "static/css/main.50479254.chunk.css",
-    "static/js/main.a0aa5712.chunk.js"
+    "static/css/main.8611cb8e.chunk.css",
+    "static/js/main.cd611afb.chunk.js"
   ]
 }
