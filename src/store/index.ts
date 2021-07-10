@@ -1,11 +1,11 @@
-import { createStore, applyMiddleware } from 'redux';
-import { createLogger } from 'redux-logger';
-import { reducers } from './reducers';
-import * as actions from './actions';
+import { createStore, applyMiddleware } from "redux";
+import { createLogger } from "redux-logger";
+import { reducers } from "./reducers";
+import * as actions from "./actions";
 
-const loggerMiddleware = createLogger({collapsed: true});
+const loggerMiddleware = createLogger({ collapsed: true });
 const store = createStore(reducers, applyMiddleware(loggerMiddleware));
 
-export {store, actions};
+export { store, actions };
 
 export type rootState = ReturnType<typeof reducers>;

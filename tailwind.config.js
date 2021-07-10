@@ -2,10 +2,9 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: false,
   theme: {
     colors: {
-      // Build your palette here
       transparent: 'transparent',
       current: 'currentColor',
       white: colors.white,
@@ -49,7 +48,16 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {},
+    extend: {
+      theme: {
+        backgroundImage: theme => ({
+          'cryptorBg': 'url("/assets/cryptor-bg.png")'
+         })
+      },
+      width: {
+        'lg':'1280px'
+      }
+    },
   },
   variants: {
     extend: {

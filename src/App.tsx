@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
-import Routes from './routes';
+import React from "react";
+import "./App.css";
+import Routes from "./routes";
 
 function App() {
   return (
-    <div className="h-full w-full overflow-hidden">
-      <Routes/>
+    <div className="w-full overflow-hidden">
+      <Routes />
     </div>
   );
 }
