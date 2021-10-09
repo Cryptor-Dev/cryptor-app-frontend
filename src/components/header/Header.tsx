@@ -7,7 +7,6 @@ import MobileMenu from "./MobileMenu";
 import { menuToggleOn } from "../../store/actions";
 import logo from "../../assets/cryptor-logo.svg";
 gsap.registerPlugin(ScrollToPlugin);
-
 const Header: React.FC = () => {
   const menutoggle = useSelector((state: rootState) => state.menuToggle.toggle);
   const dispatch = useDispatch();

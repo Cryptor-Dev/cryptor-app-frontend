@@ -1,6 +1,5 @@
 import React from "react";
-import moon from "../assets/moon-and-weave.png";
-
+import cryptorBg from "../../assets/cryptor-bg.svg";
 const RoadMap: React.FC = () => {
   return (
     <div
@@ -9,7 +8,15 @@ const RoadMap: React.FC = () => {
     >
       <h1 className="text-2xl">Roadmap</h1>
       <p className="text-sm font-light"></p>
-      <img src={moon} className="" alt="" />
+      <div>
+        <img
+          src={cryptorBg}
+          className=""
+          alt=""
+          style={{ width: "70%", display: "block", margin: "0 auto" }}
+          
+        />
+      </div>
     </div>
   );
 };
