@@ -71,7 +71,7 @@ const WhatWeDo: React.FC = () => {
   });
   return (
     <div className="px-4 lg:px-0 w-full pt-28" id="whatwedo">
-      <h1 className="text-center text-gray-300 text-2xl">WHAT WE DO</h1>
+      <h1 className="text-2xl font-bold text-white text-center">WHAT WE DO</h1>
       <p className="text-center text-gray-300 max-w-lg mx-auto text-base">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

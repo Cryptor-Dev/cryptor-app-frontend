@@ -15,6 +15,7 @@ const Carousel = (props: IProps) => {
     className: "center",
     centerMode: true,
     infinite: true,
+    arrows: false,
     centerPadding: "60px",
     slidesToShow: 3,
     speed: 2000,
@@ -26,15 +27,15 @@ const Carousel = (props: IProps) => {
 
   return (
     <div>
-        <p
-          className={
-            props.activeSlide !== -1
-              ? "text-green-500 text-center text-2xl font-bold"
-              : "text-gray-300 text-center text-2xl font-bold"
-          }
-        >
-          __
-        </p>
+      <p
+        className={
+          props.activeSlide !== -1
+            ? "text-green-500 text-center text-2xl font-bold"
+            : "text-gray-300 text-center text-2xl font-bold"
+        }
+      >
+        __
+      </p>
       <Slider {...settings}>
         {props.slides.map((data, i) => {
           return (

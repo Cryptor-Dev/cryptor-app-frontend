@@ -49,6 +49,7 @@ const RoadMap: React.FC = () => {
       id="roadmap"
     >
       <p className="text-sm font-light"></p>
+      <h1 className="text-2xl font-bold">ROADMAP</h1>
       <div
         style={{
           backgroundImage: `url(${cryptorBg})`,
@@ -57,7 +58,6 @@ const RoadMap: React.FC = () => {
           backgroundSize: "contain",
         }}
       >
-        <h1 className="text-2xl">Roadmap</h1>
         <div className="w-full p-6">
           <ImgProvider id={activeSlide} />
         </div>
