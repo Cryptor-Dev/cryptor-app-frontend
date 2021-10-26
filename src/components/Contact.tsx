@@ -21,11 +21,9 @@ const Contact: React.FC = () => {
           </button>
         </div>
       </div>
-      <div className="flex md:flex-row flex-col text-white my-28 space-y-12 md:space-y-0 ">
-        <div className="md:w-1/2 space-y-2">
-          <h1 className="text-2xl">We always love to here you</h1>
-        </div>
-        <div className="md:w-1/2">
+      <div className="flex flex-col text-white my-28 space-y-12 md:space-y-0 ">
+        <h3 className="text-2xl mx-auto mb-8 uppercase">We always love to hear you</h3>
+        <div className="w-4/5 md:w-3/5 lg:w-1/2 mx-auto">
           <div className="rounded-3xl flex flex-col space-y-12 mx-8 px-8 py-12 shadow-2xl bg-gradient-to-tr from-black via-gray-900 to-emerald-900">
             <input
               type="text"

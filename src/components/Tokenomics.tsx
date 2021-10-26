@@ -1,49 +1,66 @@
 import React from "react";
 import tokenomicsIcon from "../assets/tokenomics-icon.svg";
-import fund from "../assets/fund.svg";
+import tokenAllocation from "../assets/token-allocation.svg";
 import lineEffect from "../assets/line-effect-token.svg";
+import Quotes from "./Quotes";
+import WhitePaper from "./WhitePaper";
 
 const Tokenomics: React.FC = () => {
   return (
-    <div className="flex flex-col text-white pt-20 " id="tokenomics">
-      <div className="mx-auto text-center">
-        <h1 className="text-2xl">Tokenomics</h1>
-        <p className="text-sm font-light"></p>
+    <div className="flex flex-col text-white pt-20 px-4 lg:px-0" id="tokenomics">
+      <p className="text-sm opacity-50">Token Name</p>
+      <h3 className="text-xl">CRYPTOR</h3>
+      <div className="flex mt-12">
+        <div className="flex w-1/2">
+          <div className="space-y-3 my-auto flex flex-col w-3/4">
+            <div className="flex">
+              <p className="text-sm w-1/2 opacity-50">Token Symbol</p>
+              <p className="text-sm ml-auto opacity-50">Cryptor</p>
+            </div>
+            <div className="flex">
+              <p className="text-sm w-1/2 opacity-50">Total Decimals</p>
+              <p className="text-sm ml-auto opacity-50">11</p>
+            </div>
+            <div className="flex">
+              <p className="text-sm w-1/2 opacity-50">Soft Cap</p>
+              <p className="text-sm ml-auto opacity-50">400</p>
+            </div>
+            <div className="flex">
+              <p className="text-sm w-1/2 opacity-50">Hard Cap</p>
+              <p className="text-sm ml-auto opacity-50">800</p>
+            </div>
+            <div className="flex">
+              <p className="text-sm w-1/2 opacity-50">Min. Purchased</p>
+              <p className="text-sm ml-auto opacity-50">00.1</p>
+            </div>
+            <div className="flex">
+              <p className="text-sm w-1/2 opacity-50">Max. Purchased</p>
+              <p className="text-sm ml-auto opacity-50">600</p>
+            </div>
+            <div className="flex">
+              <p className="text-sm w-1/2 opacity-50">Total Supply</p>
+              <p className="text-sm ml-auto opacity-50">124435353535</p>
+            </div>
+          </div>
+        </div>
+        <div className="flex w-1/2">
+          <img src={tokenomicsIcon} className="h-80 w-80 mx-auto" alt="" />
+        </div>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 place-content-center gap-y-6 mt-16">
-        <img src={tokenomicsIcon} className="h-80 w-80" alt="" />
-        <div className="space-y-3 mx-auto my-auto">
-          <h1 className="text-sm">Token Sale</h1>
-          <p className="text-xs">Token Name: Cryptor</p>
-          <p className="text-xs">Ticker Symbol: ~Lorem!~</p>
-          <p className="text-xs">Total Supply: 1254525566654415</p>
-          <p className="text-xs">Decimals: 11</p>
-          <p className="text-xs">BSC Contract: dfsdfdsfdsfsfdsfdsf</p>
-          <p className="text-xs">Minimum Purchased: 00.1</p>
-          <p className="text-xs">Minimum Purchased: 6.00</p>
-          <p className="text-xs">Soft Cap: 400</p>
-          <p className="text-xs">Hard Cap: 800</p>
+      <div className="flex bg-black lg:w-1/2 py-12 shadow-2xl">
+        <div className="w-1/2 my-auto flex">
+          <img src={tokenAllocation} alt="" className="w-2/3 mx-auto"/>
         </div>
-        <div className="hidden sm:block"></div>
-        <div className="hidden sm:block"></div>
-        <img src={fund} alt="" className="h-60 w-60 mx-auto" />
-        <div className="my-auto mx-auto space-y-3">
-          <h1 className="text-sm">Token Allocation</h1>
-          <p className="text-xs">Lorem ipsum dolor sit amet,</p>
-          <p className="text-xs">tempor incididunt ut labore </p>
-          <p className="text-xs">veniam, quis nostrud exercitation</p>
-          <p className="text-xs">ullamco laboris nisi ut aliquip</p>
-        </div>
-        <div className="hidden sm:block"></div>
-        <img src={fund} alt="" className="h-60 w-60 mx-auto" />
-        <div className="my-auto mx-auto space-y-3">
-          <h1 className="text-sm">Fund Allocation</h1>
-          <p className="text-xs">Lorem ipsum dolor sit amet,</p>
-          <p className="text-xs">tempor incididunt ut labore </p>
-          <p className="text-xs">veniam, quis nostrud exercitation</p>
-          <p className="text-xs">ullamco laboris nisi ut aliquip</p>
+        <div className="my-auto">
+          <p className="my-2"><span className="bg-green-500 rounded-full w-2 h-2 inline-block mr-3"></span>Lorem Ipsum Dolo Sit</p>
+          <p className="my-2"><span className="bg-green-900 rounded-full w-2 h-2 inline-block mr-3"></span>Lorem Ipsum Dolo Sit</p>
+          <p className="my-2"><span className="bg-green-200 rounded-full w-2 h-2 inline-block mr-3"></span>Lorem Ipsum Dolo Sit</p>
+          <p className="my-2"><span className="bg-green-300 rounded-full w-2 h-2 inline-block mr-3"></span>Lorem Ipsum Dolo Sit</p>
+          <p className="my-2"><span className="bg-green-800 rounded-full w-2 h-2 inline-block mr-3"></span>Lorem Ipsum Dolo Sit</p>
         </div>
       </div>
+      <Quotes />
+      <WhitePaper />
       <div className="flex flex-col md:flex-row relative text-center my-24 md:my-36 space-y-6 md:space-y-0">
         <img
           src={lineEffect}
