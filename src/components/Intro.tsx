@@ -10,59 +10,60 @@ const Intro: React.FC = () => {
         <img
           src={intro3d}
           alt=""
-          className="absolute h-72 2xl:h-auto left-full bottom-0 2xl:top-0 -ml-64 z-0"
+          className="absolute h-72 2xl:h-auto left-full bottom-0 2xl:top-0 -ml-64 z-0 md:block  xs:hidden "
         />
-        <h1 className="text-white max-w-4xl text-5xl mt-20 sm:mt-32">
-          Investment, utility and innovation <br />
-          Made a token for the next generation
+        <h1 className="text-white md:text-5xl xs:text-2xl mt-20 sm:mt-32 max-w-3xl uppercase font-bold">
+          Investment, utility and innovation Made a token for the next
+          generation
         </h1>
-        <p className="text-white text-sm mt-6">
+        <p className="text-white text-base mt-6  max-w-xl">
           Cryptor is the first and only all in one platform to track the newest
           token and useful tools for better trades{" "}
         </p>
         <div className="max-w-max space-x-4 mt-6">
-          <button
-            className="text-white w-32 bg-transparent border rounded-xl py-3 text-sm font-light shadow-2xl white-paper-button"
+          <a
+            className="cursor-pointer border-b-2 text-white py-3 font-light shadow-2xl white-paper-button white-paper"
+            href="sd"
             onMouseEnter={() => {
-              gsap.to(".white-paper-button", {
-                translateY: "0.25rem",
-                backgroundColor: "#22C55E",
+              gsap.to(".white-paper", {
+                color: "#22C55E",
                 duration: 0.2,
-                borderWidth: 0,
+                borderColor: "#22C55E",
               });
             }}
             onMouseLeave={() => {
-              gsap.to(".white-paper-button", {
-                translateY: 0,
-                backgroundColor: "transparent",
+              gsap.to(".white-paper", {
+                color: "#ffffff",
                 duration: 0.2,
-                borderWidth: 1,
+                borderColor: "#ffffff",
               });
             }}
           >
-            White Paper
-          </button>
-          <button
-            className="text-white w-32 bg-transparent border py-3 rounded-xl text-sm font-light shadow-2xl cryptor-swap-button"
+            {" "}
+            White paper
+          </a>
+          <a
+            style={{ marginLeft: "30px" }}
+            href="sd"
+            className="cursor-pointer border-b-2 text-white py-3 font-light shadow-2xl white-paper-button cryptor-swap-button"
             onMouseEnter={() => {
               gsap.to(".cryptor-swap-button", {
-                translateY: "0.25rem",
-                backgroundColor: "#22C55E",
+                color: "#22C55E",
                 duration: 0.2,
-                borderWidth: 0,
+                borderColor: "#22C55E",
               });
             }}
             onMouseLeave={() => {
               gsap.to(".cryptor-swap-button", {
-                translateY: 0,
-                backgroundColor: "transparent",
+                color: "#ffffff",
                 duration: 0.2,
-                borderWidth: 1,
+                borderColor: "#ffffff",
               });
             }}
           >
+            {" "}
             Cryptor Swap
-          </button>
+          </a>
         </div>
       </div>
       <div className="flex flex-col text-center space-y-6 text-white">

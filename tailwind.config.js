@@ -33,6 +33,8 @@ module.exports = {
       rose: colors.rose
     },
     screens: {
+      'xs': '200px',
+
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
