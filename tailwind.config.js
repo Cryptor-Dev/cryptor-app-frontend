@@ -33,6 +33,8 @@ module.exports = {
       rose: colors.rose
     },
     screens: {
+      'xs': '200px',
+
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
@@ -51,7 +53,8 @@ module.exports = {
     extend: {
       theme: {
         backgroundImage: theme => ({
-          'cryptorBg': 'url("/assets/cryptor-bg.png")'
+          'cryptorBg': 'url("/assets/cryptor-bg.png")',
+          'roadmap-bg': "url('./assets/cryptor-bg.svg')",
          })
       },
       width: {

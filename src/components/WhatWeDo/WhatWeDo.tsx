@@ -63,7 +63,7 @@ const WhatWeDo: React.FC = () => {
           <img className="w-full block" src={data.icon} alt="feature" />
         </div>
         <h2 className="text-center text-white text-lg"> {data.heading}</h2>
-        <p className="text-center text-gray-300 text-sm max-w-xs">
+        <p className="text-center text-gray-300 text-sm md:max-w-xs xs:max-w-none">
           {data.subHeading}
         </p>
       </div>
@@ -77,7 +77,7 @@ const WhatWeDo: React.FC = () => {
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud
       </p>
-      <div className="grid grid-cols-3 gap-4 ms:grid-cols-2 mx-10">
+      <div className="grid md:grid-cols-3 xs:grid-cols-1 gap-4 mx-10">
         {featureCard}
       </div>
     </div>
