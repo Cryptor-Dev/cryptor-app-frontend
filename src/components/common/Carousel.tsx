@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "./Carousel.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useMediaQuery } from "../../hooks/useMediaQuery";
 
 interface IProps {
   handleSlideNumber: (id: number) => void;
@@ -11,13 +12,15 @@ interface IProps {
 }
 
 const Carousel = (props: IProps) => {
+  const match = useMediaQuery("(min-width: 600px)");
+
   const settings = {
     className: "center",
-    centerMode: true,
+    centerMode: match ? true : false,
     infinite: true,
     arrows: false,
     centerPadding: "60px",
-    slidesToShow: 3,
+    slidesToShow: match ? 3 : 1,
     speed: 2000,
     autoplay: true,
     cssEase: "linear",

@@ -53,7 +53,8 @@ module.exports = {
     extend: {
       theme: {
         backgroundImage: theme => ({
-          'cryptorBg': 'url("/assets/cryptor-bg.png")'
+          'cryptorBg': 'url("/assets/cryptor-bg.png")',
+          'roadmap-bg': "url('./assets/cryptor-bg.svg')",
          })
       },
       width: {

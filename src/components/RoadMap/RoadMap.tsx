@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import cryptorBg from "../../assets/cryptor-bg.svg";
+import { useMediaQuery } from "../../hooks/useMediaQuery";
 import Carousel from "../common/Carousel";
 import { ImgProvider } from "./imgProvider";
+import "./Roadmap.css";
 const RoadMap: React.FC = () => {
   const [activeSlide, setActiveSlide] = useState<number>(0);
   type SLIDES_DATA = Array<{ id: number; heading: String; subHeading: String }>;
@@ -43,23 +45,32 @@ const RoadMap: React.FC = () => {
   const handleSlideNumber = (id: number): void => {
     setActiveSlide(id);
   };
+
+  const match = useMediaQuery("(min-width: 600px)");
   return (
     <div
       className="w-full text-white text-center pt-20 sm:mt-28 space-y-5 my-10"
       id="roadmap"
     >
+      {console.log("match", match)}
       <p className="text-sm font-light"></p>
       <h1 className="text-2xl font-bold">ROADMAP</h1>
+
       <div
-        style={{
-          backgroundImage: `url(${cryptorBg})`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "contain",
-        }}
+        className="roadmap-bg bg-roadmap-bg bg-center bg-contain"
+        style={
+          match
+            ? {
+                backgroundImage: `url(${cryptorBg})`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "contain",
+              }
+            : { backgroundImage: "none" }
+        }
       >
         <div className="w-full p-6">
-          <ImgProvider id={activeSlide} />
+          {match ? <ImgProvider id={activeSlide} /> : null}
         </div>
         <Carousel
           handleSlideNumber={handleSlideNumber}

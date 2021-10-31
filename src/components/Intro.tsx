@@ -77,9 +77,27 @@ const Intro: React.FC = () => {
           to all features without any monthly subscription fee and can enjoy a
           lot of outstanding benefits.
         </p>
-        <button className="bg-transparent border w-40 mx-auto py-3 rounded-xl font-light text-sm transition transform hover:border-transparent hover:border-0 duration-200 ease-in-out hover:bg-green-500">
+        <a
+          href="sd"
+          className="cursor-pointer border-b-2 text-white py-3 font-light shadow-2xl white-paper-button early-access-button w-max m-auto"
+          onMouseEnter={() => {
+            gsap.to(".early-access-button", {
+              color: "#22C55E",
+              duration: 0.2,
+              borderColor: "#22C55E",
+            });
+          }}
+          onMouseLeave={() => {
+            gsap.to(".early-access-button", {
+              color: "#ffffff",
+              duration: 0.2,
+              borderColor: "#ffffff",
+            });
+          }}
+        >
+          {" "}
           Get Early access
-        </button>
+        </a>
       </div>
     </div>
   );
