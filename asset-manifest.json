@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/cryptor-app-frontend/static/css/main.0aad66cd.chunk.css",
-    "main.js": "/cryptor-app-frontend/static/js/main.b4f3769e.chunk.js",
-    "main.js.map": "/cryptor-app-frontend/static/js/main.b4f3769e.chunk.js.map",
-    "runtime-main.js": "/cryptor-app-frontend/static/js/runtime-main.d97924ab.js",
-    "runtime-main.js.map": "/cryptor-app-frontend/static/js/runtime-main.d97924ab.js.map",
+    "main.css": "/cryptor-app-frontend/static/css/main.be806838.chunk.css",
+    "main.js": "/cryptor-app-frontend/static/js/main.357e042f.chunk.js",
+    "main.js.map": "/cryptor-app-frontend/static/js/main.357e042f.chunk.js.map",
+    "runtime-main.js": "/cryptor-app-frontend/static/js/runtime-main.954980a2.js",
+    "runtime-main.js.map": "/cryptor-app-frontend/static/js/runtime-main.954980a2.js.map",
     "static/css/2.74cf6b50.chunk.css": "/cryptor-app-frontend/static/css/2.74cf6b50.chunk.css",
-    "static/js/2.c3138eb7.chunk.js": "/cryptor-app-frontend/static/js/2.c3138eb7.chunk.js",
-    "static/js/2.c3138eb7.chunk.js.map": "/cryptor-app-frontend/static/js/2.c3138eb7.chunk.js.map",
-    "static/js/3.37fc97e6.chunk.js": "/cryptor-app-frontend/static/js/3.37fc97e6.chunk.js",
-    "static/js/3.37fc97e6.chunk.js.map": "/cryptor-app-frontend/static/js/3.37fc97e6.chunk.js.map",
+    "static/js/2.5c80b37d.chunk.js": "/cryptor-app-frontend/static/js/2.5c80b37d.chunk.js",
+    "static/js/2.5c80b37d.chunk.js.map": "/cryptor-app-frontend/static/js/2.5c80b37d.chunk.js.map",
+    "static/js/3.f56f0a33.chunk.js": "/cryptor-app-frontend/static/js/3.f56f0a33.chunk.js",
+    "static/js/3.f56f0a33.chunk.js.map": "/cryptor-app-frontend/static/js/3.f56f0a33.chunk.js.map",
     "index.html": "/cryptor-app-frontend/index.html",
     "static/css/2.74cf6b50.chunk.css.map": "/cryptor-app-frontend/static/css/2.74cf6b50.chunk.css.map",
-    "static/css/main.0aad66cd.chunk.css.map": "/cryptor-app-frontend/static/css/main.0aad66cd.chunk.css.map",
-    "static/js/2.c3138eb7.chunk.js.LICENSE.txt": "/cryptor-app-frontend/static/js/2.c3138eb7.chunk.js.LICENSE.txt",
+    "static/css/main.be806838.chunk.css.map": "/cryptor-app-frontend/static/css/main.be806838.chunk.css.map",
+    "static/js/2.5c80b37d.chunk.js.LICENSE.txt": "/cryptor-app-frontend/static/js/2.5c80b37d.chunk.js.LICENSE.txt",
     "static/media/3d-intro.7f5699a6.svg": "/cryptor-app-frontend/static/media/3d-intro.7f5699a6.svg",
     "static/media/cryptor-bg.15a56c7f.png": "/cryptor-app-frontend/static/media/cryptor-bg.15a56c7f.png",
     "static/media/cryptor-bg.3dc4367d.svg": "/cryptor-app-frontend/static/media/cryptor-bg.3dc4367d.svg",
@@ -40,10 +40,10 @@
     "static/media/whitepaper.754b2084.png": "/cryptor-app-frontend/static/media/whitepaper.754b2084.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d97924ab.js",
+    "static/js/runtime-main.954980a2.js",
     "static/css/2.74cf6b50.chunk.css",
-    "static/js/2.c3138eb7.chunk.js",
-    "static/css/main.0aad66cd.chunk.css",
-    "static/js/main.b4f3769e.chunk.js"
+    "static/js/2.5c80b37d.chunk.js",
+    "static/css/main.be806838.chunk.css",
+    "static/js/main.357e042f.chunk.js"
   ]
 }
