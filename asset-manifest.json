@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3af44ae6.chunk.css",
-    "main.js": "/static/js/main.ead6589a.chunk.js",
-    "main.js.map": "/static/js/main.ead6589a.chunk.js.map",
+    "main.js": "/static/js/main.ddb874b3.chunk.js",
+    "main.js.map": "/static/js/main.ddb874b3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1236de46.js",
     "runtime-main.js.map": "/static/js/runtime-main.1236de46.js.map",
     "static/css/2.cc005148.chunk.css": "/static/css/2.cc005148.chunk.css",
@@ -40,13 +40,13 @@
     "static/media/twitter.8810dd47.svg": "/static/media/twitter.8810dd47.svg",
     "static/media/twitter.bbd94b23.svg": "/static/media/twitter.bbd94b23.svg",
     "static/media/wallet-system.c60f9f10.svg": "/static/media/wallet-system.c60f9f10.svg",
-    "static/media/whitepaper.754b2084.png": "/static/media/whitepaper.754b2084.png"
+    "static/media/whitepaper.26635790.png": "/static/media/whitepaper.26635790.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1236de46.js",
     "static/css/2.cc005148.chunk.css",
     "static/js/2.92cd1608.chunk.js",
     "static/css/main.3af44ae6.chunk.css",
-    "static/js/main.ead6589a.chunk.js"
+    "static/js/main.ddb874b3.chunk.js"
   ]
 }
