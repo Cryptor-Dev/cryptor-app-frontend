@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.dd91cd33.chunk.css",
-    "main.js": "/static/js/main.c400e788.chunk.js",
-    "main.js.map": "/static/js/main.c400e788.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9cc4fe25.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9cc4fe25.js.map",
+    "main.js": "/static/js/main.bdca698a.chunk.js",
+    "main.js.map": "/static/js/main.bdca698a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ff25fc7b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ff25fc7b.js.map",
     "static/css/2.cc005148.chunk.css": "/static/css/2.cc005148.chunk.css",
-    "static/js/2.b2cdc3d5.chunk.js": "/static/js/2.b2cdc3d5.chunk.js",
-    "static/js/2.b2cdc3d5.chunk.js.map": "/static/js/2.b2cdc3d5.chunk.js.map",
-    "static/js/3.fa7866d5.chunk.js": "/static/js/3.fa7866d5.chunk.js",
-    "static/js/3.fa7866d5.chunk.js.map": "/static/js/3.fa7866d5.chunk.js.map",
+    "static/js/2.491673ae.chunk.js": "/static/js/2.491673ae.chunk.js",
+    "static/js/2.491673ae.chunk.js.map": "/static/js/2.491673ae.chunk.js.map",
+    "static/js/3.041cfc1d.chunk.js": "/static/js/3.041cfc1d.chunk.js",
+    "static/js/3.041cfc1d.chunk.js.map": "/static/js/3.041cfc1d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.cc005148.chunk.css.map": "/static/css/2.cc005148.chunk.css.map",
     "static/css/main.dd91cd33.chunk.css.map": "/static/css/main.dd91cd33.chunk.css.map",
-    "static/js/2.b2cdc3d5.chunk.js.LICENSE.txt": "/static/js/2.b2cdc3d5.chunk.js.LICENSE.txt",
+    "static/js/2.491673ae.chunk.js.LICENSE.txt": "/static/js/2.491673ae.chunk.js.LICENSE.txt",
     "static/media/3d-intro.7f5699a6.svg": "/static/media/3d-intro.7f5699a6.svg",
     "static/media/close-button.21d9f3a5.svg": "/static/media/close-button.21d9f3a5.svg",
     "static/media/close-quote.d418e3f9.svg": "/static/media/close-quote.d418e3f9.svg",
@@ -37,7 +37,6 @@
     "static/media/team-patric.67c895f6.png": "/static/media/team-patric.67c895f6.png",
     "static/media/telegram.948dc250.svg": "/static/media/telegram.948dc250.svg",
     "static/media/token-sale-coin.f4130cc7.svg": "/static/media/token-sale-coin.f4130cc7.svg",
-    "static/media/token-sale-timer.7c776714.svg": "/static/media/token-sale-timer.7c776714.svg",
     "static/media/twitter.8810dd47.svg": "/static/media/twitter.8810dd47.svg",
     "static/media/twitter.bbd94b23.svg": "/static/media/twitter.bbd94b23.svg",
     "static/media/wallet-system.c60f9f10.svg": "/static/media/wallet-system.c60f9f10.svg",
@@ -45,10 +44,10 @@
     "static/media/whitepaper.26635790.png": "/static/media/whitepaper.26635790.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9cc4fe25.js",
+    "static/js/runtime-main.ff25fc7b.js",
     "static/css/2.cc005148.chunk.css",
-    "static/js/2.b2cdc3d5.chunk.js",
+    "static/js/2.491673ae.chunk.js",
     "static/css/main.dd91cd33.chunk.css",
-    "static/js/main.c400e788.chunk.js"
+    "static/js/main.bdca698a.chunk.js"
   ]
 }
