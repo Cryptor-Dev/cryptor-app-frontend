@@ -4,4 +4,4 @@ Cryptor is a DeFI app aiming to provide a simplified and better overview of your
 
 ## `COMING SOON`
 
-Demo site can be accessed via this link: https://cryptor-dev.github.io/cryptor-app-frontend/
+Site can be accessed via this link: https://cryptor.dev
